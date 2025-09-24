@@ -31,13 +31,13 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 6px 12px;
-    border-radius: 6px;
+    padding: 20px 40px;
+    border-radius: 20px;
     transition: background 0.3s;
 }
 
 nav a:hover {
-    background-color: #228B22;
+    background-color: #6cad6c;
     /* KLJ groen */
 }
 
@@ -54,6 +54,23 @@ main {
     max-width: 800px;
     margin: auto;
 }
+
+/* Hoofdtitel */
+h1 {
+    color: #c8102e;
+    /* KLJ rood */
+    text-align: center;
+    /* in het midden */
+    font-size: 2.2em;
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 3px solid #228B22;
+    /* groen lijntje eronder */
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
 
 h2 {
     color: #c8102e;
